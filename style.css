@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -45,6 +49,9 @@ table {
 
 
 
+
+
+
 .container{
 	margin: auto;
 	width: 1920px;
@@ -83,7 +90,6 @@ table {
 .main{
 	display: flex;
 	flex-wrap: wrap;
-  border-bottom:10px  dashed #009FCC;
 }
 
 .left,.right{
@@ -189,7 +195,6 @@ table {
 		flex-direction: column;
 		margin: auto;
 		justify-content: center;
- 
 	}
 
 	.content{
@@ -210,6 +215,9 @@ table {
 		height: 100%;
 	}
   }
+
+
+
 .container{
     max-width: 67.5vw;
     margin: 0 auto;
@@ -240,12 +248,7 @@ table {
 
 /* 9宮格小卡↓ */
 .wrap{
-    
-  display: flex;
- flex-wrap: wrap;
- justify-content: space-between;
-    box-sizing: border-box;
-  border-bottom:10px  dashed #009FCC;
+    /* border: 5px solid black; */
 }
 
 .content {
