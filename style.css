@@ -227,7 +227,7 @@ table {
     /* border: 5px solid black; */
 }
 
-/* 搜尋框框↓ */
+
 .search-bar{
     display: flex;
     align-items: center;
@@ -246,10 +246,7 @@ table {
     padding-left: 10px;
 }
 
-/* 9宮格小卡↓ */
-.wrap{
-    /* border: 5px solid black; */
-}
+
 
 .content {
     display: inline-block;
